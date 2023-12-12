@@ -1,0 +1,66 @@
+body {
+
+    background: url(./imgs/photo-1487147264018-f937fba0c817.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Libre Baskerville', serif;
+    color: #fff;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .2);
+    ;
+}
+
+.container {
+    height: 100vh;
+}
+
+.quote-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 3rem;
+
+    & h1 {
+        font-size: 5rem;
+        font-weight: bold;
+        margin-top: 7rem;
+    }
+
+    & p {
+        font-size: 35px;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    & .quote-btn {
+        width: 250px;
+        height: 80px;
+    }
+
+    & .quote-btn:hover {
+        background-color: #ce1212;
+    }
+
+    .name {
+        color: #ce1212;
+        font-weight: bold;
+    }
+
+    & .quote-img {
+        position: absolute;
+        top: -100px;
+        right: 50%;
+        transform: translate(50%);
+        padding-bottom: 5rem;
+    }
+
+    .border-color {
+        border-color: #ce1212 !important;
+    }
+}
